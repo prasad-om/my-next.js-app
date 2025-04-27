@@ -123,13 +123,13 @@ export default function PostmanUI() {
             </div>
             <div className="flex-1 flex justify-end">
               <div className="w-64 h-32 relative">
-                <Image
-                  src="/placeholder.svg?height=128&width=256"
+                {/* <Image
+                  src="image.png"
                   alt="Astronaut illustration"
                   width={256}
                   height={128}
                   className="object-contain"
-                />
+                /> */}
               </div>
             </div>
             <button className="absolute top-2 right-2 text-gray-400 hover:text-white">
