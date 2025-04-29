@@ -52,9 +52,9 @@ export default function PostmanUI() {
         </div>
       </header>
 
-      {/* Main Content */}
+      
       <div className="flex flex-1 overflow-hidden">
-        {/* Left Sidebar */}
+        
         <div className="w-64 border-r border-[#3d3d3d] flex flex-col">
           <div className="p-4 flex flex-col items-center border-b border-[#3d3d3d]">
             <div className="w-16 h-16 rounded-full bg-pink-500 flex items-center justify-center mb-2">
@@ -110,9 +110,9 @@ export default function PostmanUI() {
           </div>
         </div>
 
-        {/* Main Content Area */}
+        
         <div className="flex-1 overflow-y-auto p-6">
-          {/* Welcome Banner */}
+          
           <div className="bg-[#2d2d2d] rounded-md p-6 mb-8 flex relative">
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-2">Set your team up for success</h2>
@@ -137,12 +137,12 @@ export default function PostmanUI() {
             </button>
           </div>
 
-          {/* Get Started Section */}
+          
           <div className="mb-8">
             <h2 className="text-xl font-bold mb-6">Get started</h2>
 
             <div className="grid grid-cols-1 gap-4">
-              {/* Send API Request */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-4 flex items-start">
                 <div className="w-12 h-12 bg-[#1a3a47] rounded flex items-center justify-center mr-4">
                   <svg
@@ -171,7 +171,7 @@ export default function PostmanUI() {
                 </button>
               </div>
 
-              {/* Import APIs */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-4 flex items-start">
                 <div className="w-12 h-12 bg-[#3e2723] rounded flex items-center justify-center mr-4">
                   <svg
@@ -200,7 +200,7 @@ export default function PostmanUI() {
             </div>
           </div>
 
-          {/* Recently Visited Workspaces */}
+          
           <div className="mb-8">
             <h2 className="text-xl font-bold mb-6">Recently visited workspaces</h2>
 
@@ -217,7 +217,7 @@ export default function PostmanUI() {
             </div>
           </div>
 
-          {/* Discover Section */}
+        
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold">Discover what you can do in Postman</h2>
@@ -229,9 +229,9 @@ export default function PostmanUI() {
 
             <p className="text-gray-400 mb-4">Explore the full potential of Postman with collection templates.</p>
 
-            {/* Template Cards */}
+    
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-              {/* REST API basics */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-6 hover:bg-[#333333] transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-[#1a1a1a] rounded mb-4 flex items-center justify-center">
                   <svg
@@ -249,7 +249,7 @@ export default function PostmanUI() {
                 <p className="text-gray-400 text-sm">Get up to speed with testing REST APIs on Postman.</p>
               </div>
 
-              {/* API prototyping */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-6 hover:bg-[#333333] transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-[#1a1a1a] rounded mb-4 flex items-center justify-center">
                   <svg
@@ -292,7 +292,7 @@ export default function PostmanUI() {
                 <p className="text-gray-400 text-sm">Get up to speed with building an API prototype on Postman.</p>
               </div>
 
-              {/* Functional testing */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-6 hover:bg-[#333333] transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-[#1a1a1a] rounded mb-4 flex items-center justify-center">
                   <svg
@@ -310,7 +310,7 @@ export default function PostmanUI() {
                 </p>
               </div>
 
-              {/* WebSocket basics */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-6 hover:bg-[#333333] transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-[#1a1a1a] rounded mb-4 flex items-center justify-center">
                   <svg
@@ -339,7 +339,7 @@ export default function PostmanUI() {
                 <p className="text-gray-400 text-sm">Get hands-on with WebSocket testing on Postman.</p>
               </div>
 
-              {/* Blueprint documentation */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-6 hover:bg-[#333333] transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-[#1a1a1a] rounded mb-4 flex items-center justify-center">
                   <svg
@@ -389,7 +389,7 @@ export default function PostmanUI() {
                 <p className="text-gray-400 text-sm">Help your API consumers onboard faster.</p>
               </div>
 
-              {/* Data visualization */}
+              
               <div className="bg-[#2d2d2d] rounded-md p-6 hover:bg-[#333333] transition-colors cursor-pointer">
                 <div className="w-12 h-12 bg-[#1a1a1a] rounded mb-4 flex items-center justify-center">
                   <svg
@@ -429,7 +429,7 @@ export default function PostmanUI() {
             </div>
           </div>
 
-          {/* Explore Popular APIs Section */}
+          
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold">Explore popular APIs</h2>
@@ -439,9 +439,9 @@ export default function PostmanUI() {
               </Link>
             </div>
 
-            {/* API List */}
+            
             <div className="space-y-6">
-              {/* HPE Aruba Networking Central */}
+              
               <div className="border-b border-[#3d3d3d] pb-6">
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-[#2d2d2d] rounded flex items-center justify-center mr-4">
@@ -539,7 +539,7 @@ export default function PostmanUI() {
                 </div>
               </div>
 
-              {/* FlashDocs API */}
+              
               <div className="border-b border-[#3d3d3d] pb-6">
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-[#2d2d2d] rounded flex items-center justify-center mr-4">
@@ -629,7 +629,7 @@ export default function PostmanUI() {
                 </div>
               </div>
 
-              {/* API Factus */}
+              
               <div className="border-b border-[#3d3d3d] pb-6">
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-[#2d2d2d] rounded flex items-center justify-center mr-4">
